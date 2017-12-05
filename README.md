@@ -5,7 +5,7 @@ Demo repo for fixed scroller component in idyll
 
 ### Get the updated component
 
-This relies on a modified version of the featured component. Copy the `Feature` component from this repo (located in `components/default/feature.js`) into your project. You can overwrite your current default feature component, or give this one a new name name.
+This relies on a modified version of the featured component. Copy the `Feature` component from this repo (located in `components/default/feature.js`) into your project. You can overwrite your current default feature component, or give this one a new name.
 
 You'll also need to install the scrollama library:
 
