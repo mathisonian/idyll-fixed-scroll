@@ -26,6 +26,7 @@ The most basic markup to use this looks like:
   [Feature.Step]
     // your text here
   [/Feature.Step]
+[/Feature]
 ```
 
 #### Multiple steps
@@ -51,12 +52,13 @@ To include multiple steps, and have the fixed interactive update based on scroll
   [Feature.Step]
     More text......
   [/First.Step]
+[/Feature]
 ```
 
 
 #### Multiple fixed scrollers
 
-You can include multiple of these on the page, in the way you'd expect. See index.idl for the full example.
+You can include multiple of these on the page, in the way you'd expect, just include multiple `Feature`s on the page. See index.idl for the full example.
 
 
 ## CSS
